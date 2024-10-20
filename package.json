@@ -4,12 +4,13 @@
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/drawer": "^6.7.2",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
@@ -18,7 +19,9 @@
     "expo-location": "~17.0.1",
     "expo-status-bar": "~1.12.1",
     "install": "^0.13.0",
+    "leaflet": "^1.9.4",
     "react": "18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-native": "0.74.5",
     "react-native-btr": "^2.2.1",
     "react-native-chart-kit": "^6.12.0",
